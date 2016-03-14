@@ -1,0 +1,52 @@
+*{
+  /* this will put a border around every element. It will be ugly, but useful to see how the framework is working */
+  border: 1px solid orange !important;
+}
+*{
+  /** this code tells the browser to include the border in calculating an element's height and width. webkit, moz, and ms are specifications for chrome, mozilla firefox, and internet explore **/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+}
+.grid-1{
+ width:8.33%;
+}
+.grid-2{
+  width: 16.67%;
+}
+.grid-3{
+  width: 25%;
+}
+.grid-4{
+  width: 33.33%;
+}
+.grid-5{
+  width: 41.66%;
+}
+.grid-6{
+  width: 50%;
+}
+.grid-7{
+  width: 58.33%;
+}
+.grid-8{
+  width:66.66%;
+}
+.grid-9{
+  width: 75%;
+}
+.grid-10{
+  width: 83.33%;
+}
+.grid-11{
+  width:91.66%;
+}
+.grid-12{
+  width:100%;
+}
